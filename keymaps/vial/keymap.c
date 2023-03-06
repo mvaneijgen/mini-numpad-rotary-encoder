@@ -17,47 +17,34 @@
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [0] = LAYOUT( /* Base */
-    RESET, KC_MPLY, KC_PEQL, KC_PSLS, KC_PAST, 
-    KC_PGUP, KC_7, KC_8, KC_9, KC_PMNS, 
-    KC_PGDN, KC_4, KC_5, KC_6, KC_PPLS, 
-    KC_MUTE, KC_1, KC_2, KC_3, KC_ENT, 
-    RESET, KC_0, KC_DOT 
+    KC_TRNS, KC_TRNS, KC_TRNS, 
+    KC_TRNS, KC_TRNS, KC_TRNS, 
+    KC_TRNS, KC_TRNS, KC_TRNS, 
+    KC_TRNS, KC_TRNS, KC_TRNS, 
+    KC_TRNS, 
   ),
   [1] = LAYOUT( 
-    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-    KC_TRNS, KC_TRNS, KC_TRNS 
+    KC_TRNS, KC_TRNS, KC_TRNS, 
+    KC_TRNS, KC_TRNS, KC_TRNS, 
+    KC_TRNS, KC_TRNS, KC_TRNS, 
+    KC_TRNS, KC_TRNS, KC_TRNS, 
+    KC_TRNS, 
   ),
   [2] = LAYOUT( 
-    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-    KC_TRNS, KC_TRNS, KC_TRNS 
+    KC_TRNS, KC_TRNS, KC_TRNS, 
+    KC_TRNS, KC_TRNS, KC_TRNS, 
+    KC_TRNS, KC_TRNS, KC_TRNS, 
+    KC_TRNS, KC_TRNS, KC_TRNS, 
+    KC_TRNS, 
   ),  
   [3] = LAYOUT( 
-    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
-    KC_TRNS, KC_TRNS, KC_TRNS 
+    KC_TRNS, KC_TRNS, KC_TRNS, 
+    KC_TRNS, KC_TRNS, KC_TRNS, 
+    KC_TRNS, KC_TRNS, KC_TRNS, 
+    KC_TRNS, KC_TRNS, KC_TRNS, 
+    KC_TRNS, 
   ),
 };
-
-void matrix_init_user(void) {
-
-}
-
-void matrix_scan_user(void) {
-
-}
-
-void led_set_user(uint8_t usb_led) {
-
-}
-
 
 #if defined(ENCODER_MAP_ENABLE)
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
