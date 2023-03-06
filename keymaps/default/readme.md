@@ -1,1 +1,1 @@
-# The default keymap for mvaneijgen_numpad_split
+# The default keymap for mvaneijgen_mini_numpad_rotary_encoder

@@ -1,6 +1,6 @@
 # Mini numpad + rotary encoder
 
-![mvaneijgen_numpad_split](https://i.imgur.com/VK9GeeQ.jpg)
+![mvaneijgen_mini_numpad_rotary_encoder](https://i.imgur.com/VK9GeeQ.jpg)
 
 Layout can be found here http://www.keyboard-layout-editor.com/#/gists/c6bb388fac1aabdb0979386ac0f6c825
 
