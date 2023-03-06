@@ -4,7 +4,7 @@
 
 Layout can be found here http://www.keyboard-layout-editor.com/#/gists/c6bb388fac1aabdb0979386ac0f6c825
 
-A mini numpad with 9 keys and a rotarty encoder
+A mini numpad with 9 keys and a rotarty encoder.
 
 Keyboard Maintainer: [mvaneijgen](https://github.com/mvaneijgen)  
 Hardware Supported: Pro Micro (ATmega32U4)
