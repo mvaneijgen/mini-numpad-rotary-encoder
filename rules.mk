@@ -104,3 +104,4 @@ COMBO_ENABLE = no
 EXTRAFLAGS+=-flto 
 CONSOLE_ENABLE = no     # Console for debug(+400)
 ENCODER_ENABLE = yes
+ENCODER_MAP_ENABLE = yes

@@ -41,8 +41,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
 */
 // #define MATRIX_ROW_PINS { B6, B2, B3, B1, F7 }
-#define MATRIX_ROW_PINS { F4, F6, B1, B2 }
-#define MATRIX_COL_PINS { B4, B5, D7 }
+#define MATRIX_ROW_PINS { B6, B3, F7, F6 }
+#define MATRIX_COL_PINS { C6, E6, B5 }
 // #define MATRIX_ROW_PINS { F7, B1, B3, B2, B6 }
 // #define MATRIX_COL_PINS { B5, B4, E6, D7, C6 }
 
@@ -67,5 +67,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
-#define ENCODERS_PAD_A { D2 }
-#define ENCODERS_PAD_B { D3 }
+#define ENCODERS_PAD_A { D0 }
+#define ENCODERS_PAD_B { F5 }
